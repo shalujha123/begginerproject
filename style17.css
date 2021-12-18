@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: purple;
+    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+.div1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+.div11 {
+    background-color: yellow;
+    padding: 15px;
+    height: 10vh;
+    text-align: center;
+}
+.div12 {
+    background-color: yellow;
+    padding: 15px;
+    height: 10vh;
+    text-align: center;
+}
+.div13 {
+    background-color: yellow;
+    padding: 15px;
+    height: 10vh;
+    text-align: center;
+}
+.div14 {
+    background-color: yellow;
+    padding: 15px;
+    height: 10vh;
+    text-align: center;
+}
+.div15 {
+    background-color: yellow;
+    padding: 15px;
+    height: 10vh;
+    text-align: center;
+}
+.div2 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.div21 {
+    background-image: url("food/tacos.jpg");
+    background-size: cover;
+    width: 200%;
+    height: 60vh;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 120px;
+}
+.div21 h2 {
+    background-color: yellow;
+    width: 30%;
+    height: 5vh;
+    color: grey;
+}
+.div21 p {
+    background-color: yellow;
+    width: 20%;
+    height: 5vh;
+    color: grey;
+    margin-top: 10px;
+}
+.div22 {
+    background-color: yellow;
+    height: 25vh;
+    grid-gap: 10px;
+    width: 95%;
+    margin-left: 430px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+.div22 h1 {
+    background-color: yellow;
+}
+.div22 h4 {
+    background-color: yellow;
+}
+.div23  {
+    background-color: yellow;
+    height: 34vh;
+    width: 95%;
+    grid-gap: 25px;
+    padding-top: 15px;
+    margin-top: 180px;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 60px;
+}
+.div23 h1 {
+    background-color: yellow;
+}
+.div23 h4 {
+    background-color: yellow;
+}
+.div3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.div31 {
+    background-image: url("food/taco.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    text-align: center;
+    color: #fff;
+}
+.div32 {
+    background-image: url("food/beer.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    text-align: center;
+    color: #fff;
+}
+.div33 {
+    background-image: url("food/wine.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    text-align: center;
+    color: #fff;
+}
+.div34 {
+    background-image: url("food/music.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    text-align: center;
+    color: #fff;
+}
+.div4 {
+    display: table;
+    background-color: #fff;
+    width: 98%;
+    height: 70vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.div41 {
+    background-image: url("food/taco1.jpg");
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px;
+}
+.div42 {
+    background-color: #fff;
+    position: absolute;
+    right: 150px;
+    vertical-align: bottom;
+}
+.div42 h3 {
+    background-color: #fff;
+}
+.div42 h4 {
+    padding-top: 5px;
+    background-color: #fff;
+}
+.div42 h5 {
+    padding-top: 5px;
+    background-color: #fff;
+}
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: goldenrod;
+    border-style: none;
+    color: bold;
+}
+.div5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-gap: 15px;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+.heading h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.div51 {
+    background-image: url("food/coffee.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div52 {
+    background-image: url("food/shakes.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div53 {
+    background-image: url("food/cakes.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div54 {
+    background-image: url("food/chocolate.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div55 {
+    background-image: url("food/donuts.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div56 {
+    background-image: url("food/pizza.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div57 {
+    background-image: url("food/burger.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div58 {
+    background-image: url("food/chilli\ potato.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div59 {
+    background-image: url("food/momos.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div510 {
+    background-image: url("food/fruits.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
